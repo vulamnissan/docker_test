@@ -1,2 +1,1 @@
-# docker_test
-for test build CI/CD by docker
+## Simple python docker dev example for the official docker docs
