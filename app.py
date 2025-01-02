@@ -29,7 +29,6 @@ def on_startup():
 def hello():
     return "Hello:)), Vu Lam!"
 
-
 @app.post("/heroes/")
 def create_hero(hero: Hero):
     with Session(engine) as session:
